@@ -4,20 +4,26 @@
 
 在 mark_det_pose.py 中填上更改以下信息：
 
-1. bucket鉴权密钥及对应的bucket_name
-upload_access_key = "******************"
-upload_secret_key = "******************"
-bucket_name = "Your bucket name"
-bucket_url = "your bucket url like http://pargr4az5.bkt.clouddn.com/"
+1. bucket鉴权密钥及对应的bucket_name  
+
+upload_access_key = "******************"  
+
+upload_secret_key = "******************"  
+
+bucket_name = "Your bucket name"  
+
+bucket_url = "your bucket url like http://pargr4az5.bkt.clouddn.com/"  
 
 2. 人脸检测及关键点标记的鉴权密钥
 
 process_access_key = "******************"
+
 process_secret_key = "******************"
 
 3. 执行命令
 
-python2 mark_det_pose.py -d <Dir to save data>
+python2 mark_det_pose.py -d <Dir to save data>  
+
 如果需要停止采集数据，在图像显示界面按“q”退出采集数据，已经采集的图像帧将会继续上传并处理
 
 ## 特殊依赖：
